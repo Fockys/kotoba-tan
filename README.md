@@ -26,11 +26,9 @@ bellow are some resources that have been important to development and helped us 
 - VS build tools with desktop development with c++ workload and a windows SDK
 
 Check that rust is using MSVC
-
 ```powershell
 rustc -Vv
 ```
-
 The host value should end in windows-mscv if it doesnt install and select
 ```powershell
 rustup toolchain install stable-x86_64-pc-windows-msvc
@@ -40,9 +38,7 @@ rustup default stable-x86_64-pc-windows-msvc
 
 ```
 git clone https://github.com/Fockys/kotoba-tan
-```
-cd into the respository
-```
+cd kotoba-tan
 pnpm install
 ```
 
@@ -51,8 +47,7 @@ to run dev
 pnpm tauri dev
 ```
 
-to build a release use
-
+to build a release 
 ```
 pnpm tauri build
 ```
