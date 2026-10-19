@@ -31,9 +31,7 @@
 
 
 .navigationSideFooter{
-    position:absolute;
-    width: inherit;
+    width: 100%;
     text-align: center;
-    bottom: 0;
     border-top: 2px solid white;
 }

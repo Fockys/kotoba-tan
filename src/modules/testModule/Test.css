@@ -1,0 +1,9 @@
+
+
+#test{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-inline: 32px;
+}

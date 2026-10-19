@@ -1,4 +1,5 @@
 import NavigationSide from "./navigation/NavigationSide";
+import Test from "./modules/testModule/Test";
 import "./App.css";
 
 function App() {
@@ -7,9 +8,7 @@ function App() {
   return (
     <main className="appContainer">
       <NavigationSide/>
-      <div>
-        <h1>Current content</h1>
-      </div>
+      <Test/>
     </main>
   );
 }

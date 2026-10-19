@@ -1,0 +1,4 @@
+[submodule "src-tauri/native/hoshidicts"]
+	path = src-tauri/native/hoshidicts
+	url = https://github.com/Manhhao/hoshidicts.git
+	branch = main
